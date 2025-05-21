@@ -4,7 +4,7 @@ Run Chromium GUI with extensions inside Ubuntu on Termux (Android)
 
 This guide will walk you through setting up Chromium with extension support inside an Ubuntu environment on Android using Termux, complete with GUI via VNC. Perfect for node farming and testing browser-based dApps.
 
---- remember to remove batrry optimisation for termux and the vnc/bvnc apk you will download 
+--- remember to remove battery optimisation for termux and the vnc/bvnc apk you will download 
 
 ## 1. Install Termux & Dependencies
 
