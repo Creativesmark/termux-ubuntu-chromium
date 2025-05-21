@@ -92,7 +92,19 @@ chromeblast
 
 ## 7. Access GUI on Android
 
-Install **VNC Viewer** from Play Store and connect to `127.0.0.1:5901`
+### Recommended VNC Clients:
+
+* [VNC Viewer (by RealVNC) on Google Play](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
+* [bVNC: Secure VNC Viewer on Google Play](https://play.google.com/store/apps/details?id=com.iiordanov.freebVNC)
+
+### VNC Configuration:
+
+* **Address:** `127.0.0.1`
+* **Port:** `5901`
+* **Password:** (set during `vncserver` setup)
+* **Color Depth:** 24-bit
+* **Resolution:** 1280x720 or 1024x600 (adjust to screen)
+* **Input Mode:** Touchpad (recommended for bVNC)
 
 ## 8. Manage Extensions
 
@@ -132,13 +144,12 @@ chromeblast --user-data-dir=/root/clean-profile
 
 ## Credits
 
-Tested and built in aTermux Ubuntu environment using proot + Chromium + xfce4 + VNC.
+Tested and built in a Termux Ubuntu environment using proot + Chromium + xfce4 + VNC.
 
 Feel free to fork, contribute, or report issues.
 
 ---
 
-**GitHub:** \[creativesmark]
-**Twitter/X:** \[i2playy]
+**GitHub:** \[Creativesmark]
+**Twitter/X:** \[@i2playy]
 **Built for node runners, tinkerers, and hackers.**
-
